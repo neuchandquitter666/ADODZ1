@@ -1,0 +1,10 @@
+﻿CREATE DATABASE VegetablesAndFruits;
+
+
+CREATE TABLE Products (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100) NOT NULL,
+    Type NVARCHAR(50) NOT NULL, 
+    Color NVARCHAR(50) NOT NULL, 
+    CaloricContent INT NOT NULL
+);
